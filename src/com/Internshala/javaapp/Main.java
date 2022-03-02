@@ -5,21 +5,31 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-       // incrememnt operator
-        String color,green,red,yellow;
-        Scanner scanner=new Scanner(System.in);
+       // IF-ELSE IF  ladder statement
+        char grade;
+        int marks = 85;
 
-        System.out.print(" Enter the color of the traffic light:- ");
-        color=scanner.nextLine();
-
-        if(color.equals("green"))
+        if (marks >= 90)
         {
-            System.out.print ("You are allowed to move.") ;
+            grade='A';
+        }
+        else if (marks >= 80)
+        {
+            grade = 'B';
+        }
+        else if (marks >= 70)
+        {
+            grade = 'C';
+        }
+        else if (marks >= 60)
+        {
+            grade = 'D';
         }
         else
         {
-            System.out.print (" You are not allowed to move. ");
+            grade = 'F';
         }
-        scanner.close();
+        System.out.println(" Grade :" + grade);
+
     }
 }
