@@ -39,7 +39,7 @@ public class Main {
                  System.out.println("Excellent marks");
             break;
             case 'B':
-                System.out.println(" Very good  marks");
+                System.out.println(" Very good marks");
             break;
             case 'C':
                 System.out.println("Good marks, Could do better");
