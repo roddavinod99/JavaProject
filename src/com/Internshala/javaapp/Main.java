@@ -1,5 +1,7 @@
 package com.Internshala.javaapp;
 
+import com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory;
+
 import java.util.Scanner;
 
 public class Main {
@@ -30,6 +32,27 @@ public class Main {
             grade = 'F';
         }
         System.out.println(" Grade :" + grade);
+
+        switch (grade)
+        {
+            case 'A':
+                 System.out.println("Excellent marks");
+            break;
+            case 'B':
+                System.out.println(" Very good  marks");
+            break;
+            case 'C':
+                System.out.println("Good marks, Could do better");
+            break;
+            case 'D':
+                System.out.println(" Average score, Work hard");
+            break;
+            case 'F':
+                System.out.println("You have failed");
+            break;
+            default :
+                System.out.println("Invalid Grade");
+        }
 
     }
 }
