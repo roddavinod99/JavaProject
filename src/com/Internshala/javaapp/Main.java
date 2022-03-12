@@ -1,21 +1,26 @@
 package com.Internshala.javaapp;
-
-import com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory;
-
 import java.util.Scanner;
 
-public class Main
-{
-
-    public static void main(String[] args) {
-        boolean green = true;
-        if (green) {
-            System.out.println("You are allowed to move");
-        } else {
-            System.out.println("Please stop");
+public class Main {
+    public static void main(String[] args)
+    {
+        float[] mySecondArray = new float[3];
+        mySecondArray[0] = 34.4f;
+        mySecondArray[1] =4.6f;
+        mySecondArray[2] = 78.11f;
+        float sumOfNumbers = 0;
+        for(float num: mySecondArray)
+        {
+            sumOfNumbers+= num;
+            System.out.println(num);
         }
-        String message;
-        message = (green) ? " You are allowed to move" : "Please stop";
-        System.out.println(message);
-    }
+        System.out.println("Sum of the Second Array: " + sumOfNumbers);
+      }
 }
+
+
+
+
+
+
+
