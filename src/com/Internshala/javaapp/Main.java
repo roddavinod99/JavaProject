@@ -1,25 +1,23 @@
 package com.Internshala.javaapp;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-        int sum= 0;
-        int[][] myFirst2DArray = {
-                { 3, 5, 1, 9 },
-                { 10, 15, 3, 0  },
-                { 1, 11, 31, 90 },
-                { 2, 51, 1, 9 }
-        };
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int principle1 = 10000;
+        float rateOfInterst1= 8.7f;
+        int timePeriod1= 2;
 
-        for (int row = 0; row < myFirst2DArray.length; row++) {
+        double sim1= principle1 * rateOfInterst1 * timePeriod1/100;
+        System.out.println(sim1);
 
-            for (int column = 0; column < myFirst2DArray[row].length; column++) {
-                sum= sum+ myFirst2DArray[row][column];
-                System.out.print(myFirst2DArray[row][column] + " ");
-            }
+        int principle2 = 130000;
+        float rateOfInterst2 = 10.5f;
+        int timePeriod2 = 4;
 
-            System.out.println();
-        }System.out.println("sum of all Elements is : " +sum);
+        double sim2= principle2 * rateOfInterst2 * timePeriod2/ 100;
+        System.out.println(sim2);
 
     }
 
