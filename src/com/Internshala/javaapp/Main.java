@@ -5,20 +5,16 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int principle1 = 10000;
-        float rateOfInterst1= 8.7f;
-        int timePeriod1= 2;
+        calculateSimpleInterset(1000,3.7f, 4);
 
-        double sim1= principle1 * rateOfInterst1 * timePeriod1/100;
-        System.out.println(sim1);
+        calculateSimpleInterset(130000,10.7f,8);
 
-        int principle2 = 130000;
-        float rateOfInterst2 = 10.5f;
-        int timePeriod2 = 4;
+        calculateSimpleInterset(4000,12.7f,7);
 
-        double sim2= principle2 * rateOfInterst2 * timePeriod2/ 100;
-        System.out.println(sim2);
-
+    }
+    public static void calculateSimpleInterset(int principle, float rateOfInterest, int timePeriod) {
+        double si= principle*rateOfInterest*timePeriod/100;
+        System.out.println(si);;
     }
 
 }
