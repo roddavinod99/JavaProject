@@ -24,7 +24,7 @@ public class Main
 		Black.setPrice(35.0f);
 
 		Pastry Choco=new Pastry();          //Object Choco
-		Choco.setName("Choco Forest");
+		Choco.setName("Choco Truffle");
 		Choco.setPrice(40.0f);
 
 		List <Pastry> Pastrylist= new ArrayList<>();

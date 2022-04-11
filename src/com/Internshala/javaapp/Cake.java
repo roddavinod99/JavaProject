@@ -1,15 +1,15 @@
 package com.Internshala.javaapp;
 
 public class Cake {
-	String name;         // name of the Cake
-	float price;         // price of the Cake
+	String name;         // name of the Cake instance variable
+	float price;         // price of the Cake instance variable
 
 	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.name = name;   //use "this" keyword to  make compiler understand that we refer instance variable "name".
 	}
 
 	public float getPrice() {
@@ -17,7 +17,7 @@ public class Cake {
 	}
 
 	public void setPrice(float price) {
-		this.price = price;
+		this.price = price; //use "this" keyword to make compiler undersatnd that we refer instance variable "price".
 	}
 
 	public void Display(){
