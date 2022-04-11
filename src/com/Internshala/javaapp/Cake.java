@@ -21,6 +21,6 @@ public class Cake {
 	}
 
 	public void Display(){
-		System.out.println("  " + name + " : " + '\u20B9' + " " + price + " per pound" );
+		System.out.println("  " + name + " : "+ '\u20B9' + " " + price + " per pound" );
 	}
 }

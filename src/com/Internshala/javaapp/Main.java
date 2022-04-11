@@ -49,7 +49,7 @@ public class Main
 
 		for (Pastry pastry:Pastrylist)
 		{
-			pastry.Display();	// display method in the class Pastry
+			pastry.Display();	// display method from the class Pastry
 		}
 	}
 }
